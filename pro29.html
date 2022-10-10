@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Array Slice
+        const foods = ['pizza', 'burger', 'fingerChips', 'donuts', 'springRoll'];
+        const newFoodItem=foods.slice(1,4)
+        console.log(newFoodItem)
+
+        // Array Splice
+        foods.splice(2,0,'noodles', 'icecream')
+        console.log(foods)
+
+        // Filter
+        const numberArray = [12,324,213,4,2,3,45,4234];
+        var even = numberArray.filter((value) => value%2==0);
+        console.log(even);
+
+
+
+    </script>
+
+
+</body>
+</html>
